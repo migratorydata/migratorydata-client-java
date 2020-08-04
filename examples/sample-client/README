@@ -1,0 +1,54 @@
+This folder contains examples that show how to use MigratoryData Client SDK for Java.
+
+REQUIREMENTS
+------------
+
+Java Development Kit (JDK) version 8 or later
+
+STRUCTURE
+---------
+
+This example has the following structure:
+
+	- lib : folder containing the MigratoryData Client API for Java library
+	
+	- src : folder containing the source files of this example
+	
+	- build.bat : this is the build script for Windows; it allows rebuilding the 
+	              "sample-client.jar" by compiling the sources of the "src" folder
+	              
+	- build.sh : this is the build script for Linux / Unix; it allows rebuilding 
+	             the "sample-client.jar" by compiling the sources of the "src" folder
+	             
+	- sample-client.jar : the JAR binary of this example
+		
+	- README : this file
+
+	- start.bat : the start-up script for Windows
+	
+	- start.sh : the start-up script for Linux / Unix
+
+	- manifest.txt : it is used for building the JAR binary from sources
+
+USAGE
+-----
+
+To use this example please follow these steps:
+
+	1. Configure the start-up parameters for your operating system (Linux / Unix 
+	   or Windows) by editing the script "start.sh" or "start.bat"
+	   
+	2. Start the MigratoryData server
+		
+	4. Start the example by using the start-up script
+	
+	4. Real-time messages and status notifications should appear in the console 
+
+MODIFYING AND REBUILDING THE SOURCE CODE
+----------------------------------------
+
+	1. Edit the files in the "src" folder
+	
+	2. Run the "build.sh" or "build.bat" scripts (depending on your operating 
+	   system) to rebuild the source code. If successful, the build will 
+	   overwrite the "sample-client.jar" with a new JAR binary.
